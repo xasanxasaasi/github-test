@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.header_section{
+    max-width: 100%;
+    height: 550px;
+    background-image: url('desktop\ wellaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+nav img{
+    width: 250px;
+    height: 250px;
+    margin: -4%;
+    margin-left: -6%;
+    
+    
+}
+ul{
+    margin-left: 50%;
+}
+ul li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 15px;
+}
+ul li:hover{
+    background-color: aliceblue;
+    border-radius: 30px;
+    color: black;
+}
+h1{
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 10%;
+    margin-top: 2%;
+}
+input {
+    width: 30%;
+    height: 8%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 2%;
+    padding: 15px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    width:7%;
+    height: 8%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: -6%;
+    margin-top: 2%;
+    background-color: blue;
+    font-size: 15px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(11, 107, 225);
+}
+.fa-searchengin{
+    color: rgba(255, 255, 255, 0.925);
+    font-size: 15px;
+
+}
+.danbe{
+    color: rgba(0, 0, 0, 0.925);
+}
+.recent{
+    position: relative;
+    margin-left: 0%;
+    margin-top: 1%;
+    text-align: center;
+    color: rgb(3, 82, 152);
+}
+.country{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    margin-top: 2%;
+    margin-left: 3%;
+    gap: 20px;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    box-shadow: 0 6px 7px 6px rgba(18, 18, 18, 0.1);
+    border: 1px solid #ddd;
+    flex-wrap: wrap;
+}
+.country img {
+    width: 98%;
+    height: 65%;
+    border-radius: 5px;
+}
+.h4-1{
+    color: #000000;
+}
+.h4-2{
+    color: #0056b9;
+}
+.h4-3{
+    color: #000000;
+}
+.h4-4{
+    color: #0056b9;
+}
+
+.icons-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e0e0e0;
+    margin-top: 2%;
+    box-shadow: 10px 10px 25px 6px rgb(21, 21, 21);
+}
+
+.icons-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.icons-section p {
+    font-size: 1.2em;
+    color: #0056b9;
+    margin-bottom: 40px;
+}
+
+.icons2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+}
+
+.icon-item .material-symbols-outlined {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.icons-section p{
+    color: #0056b9;
+}
+
+/* Specific colors for icons and descriptions */
+.hiking-icon {
+    color: #0056b9; 
+}
+
+.surfing-icon {
+    color: #000000; 
+}
+
+.helicopter-icon {
+    color: #0056b9; 
+}
+
+.flights-icon{
+    color: #000000;
+}
+
+p.description-1 {
+    color: #0056b9; 
+}
+
+p.description-2 {
+    color: #000000; 
+}
+
+p.description-3 {
+    color: #0056b9; 
+}
+p.description-4 {
+    color: #000000; 
+}
+
+
+

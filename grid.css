@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+}
+.navbar{
+    background-color: rgba(79, 208, 236, 1);
+}
+.side-bar{
+    background-color: rgba(20, 163, 209, 1);
+}
+.main{
+    background-color: rgba(79, 208, 236, 1);
+}
+.content1{
+    background-color: rgba(79, 208, 236, 1);
+}
+.content2{
+    background-color: rgba(79, 208, 236, 1);
+}
+.content3{
+    background-color: rgba(79, 208, 236, 1);
+}
+.footer{
+    background-color: rgba(20, 163, 209, 1);
+}
